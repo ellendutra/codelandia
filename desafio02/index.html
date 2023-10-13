@@ -5,16 +5,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desafio 02</title>
-  <meta name="description" content="">
+  <meta name="description" content="site da loja Jordan Shoes que apresenta tênis à venda">
   <meta name="keywords" content="tecnologia, codelandia">
   <meta name="author" content="Ellen Dutra">
-  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+  <header>
+    <span>Ganhe R$ 10,00 de desconto no frete</span>
+    <p>JordanShoes</p>
+    <section class="hero">
+      <div class="text-hero">
+        <h2>A melhor loja de Jordan</h2>
+        <p id="typed"></p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <h2>Destaques</h2>
+    <p>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.</p>
+
+    <ul>
+      <li><img src="./images/1.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/2.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/3.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/4.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/5.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/6.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/7.png" alt="Tênis Jordan disponível na loja"></li>
+      <li><img src="./images/8.png" alt="Tênis Jordan disponível na loja"></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ['O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.'],
+      typeSpeed: 30,
+      showCursor: false,
+    });
+  </script>
 
 </body>
-
 
 </html>
