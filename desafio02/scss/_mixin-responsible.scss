@@ -1,0 +1,15 @@
+@mixin responsible($device) {
+  @if $device == medium {
+    @media screen and (max-width: 1024px) {
+      @content;
+    }
+  } @else if $device == small {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  } @else if $device == extra-small {
+    @media screen and (max-width: 480px) {
+      @content;
+    }
+  }
+}
