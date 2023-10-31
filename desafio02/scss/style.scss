@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 @import 'colors';
-@import 'mixin-responsible';
+@import 'mixin-responsive';
 
 * {
   margin: 0;
@@ -116,7 +116,7 @@ footer {
   }
 }
 
-@include responsible(medium) {
+@include responsive(medium) {
   .text-hero {
     margin-left: 35px;
   }
@@ -135,14 +135,14 @@ footer {
   }
 }
 
-@include responsible(small) {
+@include responsive(small) {
   li {
     width: 100%;
     margin: 0 0 10px 0;
   }
 }
 
-@include responsible(extra-small) {
+@include responsive(extra-small) {
   main {
     padding: 20px;
   }
